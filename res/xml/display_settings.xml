@@ -270,6 +270,13 @@
 
     </PreferenceCategory>
 
+    <com.android.settings.widget.preferences.SecureSettingSwitchPreference
+            android:key="show_combined_status_bar_signal_icons"
+            android:title="@string/combined_status_bar_signal_icons"
+            android:summary="@string/combined_status_bar_signal_icons_summary"
+            settings:controller="com.android.settings.display.CombinedSignalIconsPreferenceController"
+            android:defaultValue="true" />
+
     <com.android.settings.widget.preferences.SystemSettingSwitchPreference
         android:key="disable_ripple_effect"
         android:title="@string/disable_fingerprint_ripple_effect_title"
