@@ -128,6 +128,8 @@ public class DisplaySettings extends DashboardFragment implements
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.icon_pack"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.font"));
         return controllers;
     }
 
