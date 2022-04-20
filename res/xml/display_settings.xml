@@ -267,10 +267,10 @@
             android:defaultValue="true" />
 
     <com.android.settings.widget.preferences.SystemSettingSwitchPreference
-        android:key="disable_ripple_effect"
-        android:title="@string/disable_fingerprint_ripple_effect_title"
-        android:summary="@string/disable_fingerprint_ripple_effect_summary"
-        android:defaultValue="false" />
+        android:key="enable_ripple_effect"
+        android:title="@string/enable_fingerprint_ripple_effect_title"
+        android:summary="@string/enable_fingerprint_ripple_effect_summary"
+        android:defaultValue="true" />
 
     <com.android.settings.widget.preferences.SecureSettingSwitchPreference
             android:key="enable_location_privacy_indicator"
