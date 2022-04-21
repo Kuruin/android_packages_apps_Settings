@@ -297,4 +297,38 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+         android:key="show_fourg_icon"
+         android:title="@string/show_fourg_icon_title"
+         android:summary="@string/show_fourg_icon_summary"
+         android:order="-9"
+         android:defaultValue="false"/>
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="data_disabled_icon"
+        android:title="@string/data_disabled_icon_title"
+        android:summary="@string/data_disabled_icon_summary"
+        android:order="-7"
+        android:defaultValue="true"/>
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="show_volte_icon"
+            android:title="@string/volte_icon_title"
+            android:summary="@string/volte_icon_summary"
+            android:defaultValue="true" />
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="show_vowifi_icon"
+            android:title="@string/vowifi_icon_title"
+            android:summary="@string/vowifi_icon_summary"
+            android:defaultValue="true" />
+
+    <Preference
+        android:key="traffic"
+        android:order="-10"
+        android:fragment="com.android.settings.fork.Traffic"
+        android:icon="@drawable/ic_traffic"
+        android:title="@string/traffic_title"
+        android:summary="@string/network_traffic_state_summary" />
+
 </PreferenceScreen>
