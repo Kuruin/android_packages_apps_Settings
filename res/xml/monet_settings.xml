@@ -28,7 +28,7 @@
         android:dependency="monet_engine_custom_color"
         android:defaultValue="0xffffff" />
 
-    <com.android.settings.widget.preferences.CustomSeekBarPreference
+    <com.android.settings.widget.preferences.SecureSettingSeekBarPreference
         android:key="monet_engine_white_luminance_user"
         android:title="@string/monet_engine_white_luminance_user_title"
         android:defaultValue="425"
@@ -41,7 +41,7 @@
         android:title="@string/monet_engine_accurate_shades_title"
         android:defaultValue="true" />
 
-    <com.android.settings.widget.preferences.CustomSeekBarPreference
+    <com.android.settings.widget.preferences.SecureSettingSeekBarPreference
         android:key="monet_engine_chroma_factor"
         android:title="@string/monet_engine_chroma_factor_title"
         android:defaultValue="100"
