@@ -1618,18 +1618,6 @@
         <item>4</item>
     </string-array>
 
-    <!-- Network traffic location -->
-    <string-array name="network_traffic_location_entries">
-        <item>@string/traffic_disabled</item>
-        <item>@string/traffic_statusbar</item>
-        <item>@string/traffic_expanded_statusbar</item>
-    </string-array>
-    <string-array name="network_traffic_location_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <!-- AOD Schedule -->
     <string-array name="doze_always_on_auto_mode_entries">
         <item>@string/disabled</item>
@@ -1749,4 +1737,6 @@
         <item>8</item>
         <item>9</item>
     </string-array>
+=======
+>>>>>>> parent of 1b77b5156d... Settings: Network traffic location [2/2]
 </resources>
